@@ -1,8 +1,11 @@
 import '@/styles/globals.css';
 import Head from 'next/head';
+import { Provider } from 'react-redux';
 
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import ProductCard from '@/components/ProductCard';
+import store from '@/store/store';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -19,9 +22,11 @@ export default function App({ Component, pageProps }) {
           crossOrigin="true"
         />
       </Head>
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
+      <Provider store={store}>
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </Provider>
     </>
   );
 }
