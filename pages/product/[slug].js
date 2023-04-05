@@ -11,8 +11,7 @@ import { addToCart } from '@/store/cartSlice';
 import { fetchDataFromApi } from '@/utils/api';
 import { getDiscountedPricePercentage } from '@/utils/helper';
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import toast, { Toaster } from 'react-hot-toast';
 
 const ProductDetails = ({ product, products }) => {
   const [selectedSize, setSelectedSize] = useState();
@@ -22,20 +21,17 @@ const ProductDetails = ({ product, products }) => {
 
   const notify = () => {
     toast.success('Success. Check your cart!', {
-      position: 'bottom-right',
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: 'dark',
+      position: 'right-bottom',
+      style: {
+        backgroundColor: '#2f3130',
+        color: 'white',
+      },
     });
   };
 
   return (
     <div className="w-full md:py-20">
-      <ToastContainer />
+      <Toaster />
       <Wrapper>
         <div className="flex flex-col lg:flex-row md:px-10 gap-[50px] lg:gap-[100px]">
           {/* left colums start */}
