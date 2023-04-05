@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
@@ -57,7 +57,13 @@ const Header = () => {
     >
       <Wrapper className="h-[60px] flex justify-between items-center">
         <Link href="/">
-          <img src="/logo.svg" alt="logo" className="w-[40px] md:w-[60px]" />
+          <Image
+            src="/logo.svg"
+            alt="logo"
+            width={40}
+            height={40}
+            className="w-[40px] md:w-[60px]"
+          />
         </Link>
 
         <Menu
