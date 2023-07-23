@@ -31,9 +31,10 @@ const Cart = () => {
       await stripe.redirectToCheckout({
         sessionId: res.stripeSession.id,
       });
-    } catch (error) {}
-    setLoading(false);
-    console.log(error);
+    } catch (error) {
+      setLoading(false);
+      console.log(error);
+    }
   };
 
   return (
