@@ -1,38 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Step Up – Web application for shoe store 🔗[[Live at]](https://step-up-chandankrr.vercel.app/)
 
-## Getting Started
+Step Up shoe store: Elevate Your Shopping Experience! Explore a feature-rich web application with seamless navigation, filtering, and cart management. Powered by Strapi CMS for secure content management and server-side rendering, enjoy a stylish and secure shoe shopping journey with integrated Stripe payment for a smooth checkout process.
 
-First, run the development server:
+#### Step Up shoe store backend repository: https://github.com/chandankrr/step-up-backend
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Filter items by different categories
+- Add items to cart
+- Pagination for easy browsing
+- Secure payment processing during checkout using Stripe
+- Server-side rendering for better SEO
+- Utilizes Strapi content management system for secure and scalable content management
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Tech Stack
+React, Redux, Next.js, Tailwind CSS, MySQL, Strapi Headless CMS, Stripe Payment Gateway
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Screenshots
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/1c4d3057-f844-424d-81a1-7b725a3ef9fa">
+</kbd>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br/>
+<br/>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/3d99361c-2ddb-4fda-a2e5-695b13852407">
+</kbd>
 
-## Learn More
+<br/>
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/44297989-d0c8-4fe6-91f8-3dcb942d18f6">
+</kbd>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br/>
+<br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/ebae61f4-9788-48e6-99ed-849edc7f98bd">
+</kbd>
 
-## Deploy on Vercel
+<br/>
+<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/033813d2-11b1-47c6-8105-45b22d3ab2ec">
+</kbd>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br/>
+<br/>
+
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/6e2f0797-171f-41e0-9dd0-76aa564d0036">
+</kbd>
+
+<br/>
+<br/>
+
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/e76a1ecf-3b83-4af4-ae69-4301b6a858c5">
+</kbd>
+
+<br/>
+<br/>
+
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/446044f2-b83e-47f9-8702-d1ab69d4863b">
+</kbd>
+
+<br/>
+<br/>
+
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/0a4fa512-c091-4356-beda-5a8f4138876e">
+</kbd>
+
+<br/>
+<br/>
+
+<kbd>
+  <img src="https://github.com/chandankrr/step-up-frontend/assets/87066174/f6997e03-6aad-4082-bf55-35238e9605cf">
+</kbd>
+
+
+
